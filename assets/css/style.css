@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+.logo{
+  background: url("../images/cover2.png");
+  background-repeat: no-repeat;
+  height: 191px;
+  width: 262px;
+  text-align: center;
+}
+
+.bg-color-name-title{
+    font:Exo;
+    background-color: #525252;
+   
+}
+
+.ui-menu-color-bookings{
+    background-color: grey;
+    height:80px;
+}
+
+
+.ui-menu-color-music{
+    background-color: grey;
+    height:80px;
+}
+
+.ui-menu-color-bandmembers{
+    background-color: grey;
+    height:80px;
+}
+
+
+.ui-menu-color-review{
+    background-color: grey;
+    height:80px;
+}
+
+/*--------------------------------------------Special Paddings/Margins/Text*/
+
+
+.row-table{
+    width: 100%;
+    background-color: grey;
+    margin-top: 50px;
+}
+
+
+.bandinfo{
+    width: 100;
+    background-color: grey;
+    padding-top: 20px;
+}
+
+.vplayer{
+    background-color: grey;
+}
+
+
+.soclinks{
+  text-align: right;
+  
+}
+
+.social-links{
+    float: right;
+}
+
+.copyright{
+    float: left;
+}
+
+.container{
+    width: 100%; display: table;
+} 
+
+
+
+.article{
+    text-align: center;
+    background-color: #525252;
+}
+
+/*--------------------------------------------Caldender*/
+
+
+
+
+
+
+
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+
+/*--------------------------------------------Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 60px;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+
+
+#footer-details {
+    margin: 20px;
+}
+
