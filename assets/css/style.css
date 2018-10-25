@@ -6,21 +6,29 @@
 h1,
 h2,
 h3,
-h4 {
-    margin: 0;
+h4,
+h5 {
     text-align: center;
+    margin: 0;
     color: white;
 }
 
-
-
-.logo{
-  background: url("../images/cover2.png");
-  background-repeat: no-repeat;
-  height: 191px;
-  width: 262px;
-  text-align: center;
+.a{
+    color: #f9ff01;
 }
+
+
+.list-inline-item{
+    color: #f9ff01;
+}
+
+.navbar {
+    position: relative;
+    align-items: center;
+     background-color: #525252;
+     font-size: 20px;
+}
+
 
 .bg-color-name-title{
     font:Exo;
@@ -52,31 +60,53 @@ h4 {
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
+.img {
+    align-items: flex-end;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+}
+
+.ul{
+    list-style: none;
+}
+
+
+.list-inline{
+    padding-left: 0;
+    display: inline;
+}
 
 .row-table{
     width: 100%;
     background-color: grey;
-    margin-top: 50px;
+    margin: 0;
 }
 
 
+.row-table1{
+    width: 100%;
+    margin: 0;
+}
+
 .bandinfo{
-    width: 100;
     background-color: grey;
     padding-top: 20px;
 }
 
 .vplayer{
     background-color: grey;
+    
 }
 
 
 .soclinks{
-  text-align: right;
+  float: right;
   
 }
-
-.social-links{
+.follow{
     float: right;
 }
 
@@ -122,12 +152,5 @@ footer {
     margin: 0;
     width: 100%;
     bottom: 0;
-    position: fixed;
-}
-
-
-
-#footer-details {
-    margin: 20px;
 }
 
